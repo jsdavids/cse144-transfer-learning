@@ -32,6 +32,15 @@ ensemble is the best submission so far:
 | ConvNeXt-Small | 0.755 |
 | **Ensemble** | **0.764** |
 
+### Kaggle leaderboard
+
+![Kaggle leaderboard position](leaderboard.png)
+
+Leaderboard standing for **JSDavidson** on the
+[competition](https://www.kaggle.com/competitions/ucsc-cse-144-spring-2026-final-project)
+public leaderboard. The public score reflects ~10% of the test set, so it differs from the
+held-out validation accuracies reported above.
+
 Two inference-time / regularization options are also available: **head dropout** (`--dropout p`,
 training) and **test-time augmentation** (`--tta` / `--tta-five-crop`, inference, no retraining
 required) — see [the project report](CSE%20144%20Final%20Project%20Report.pdf) §7 and §10.4.
