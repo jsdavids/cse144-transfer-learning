@@ -1,0 +1,32 @@
+# CSE 144 Final Project — Python dependencies
+#
+# Verified working set (Windows 10, Python 3.14, NVIDIA GTX 960):
+#   torch 2.12.0+cu126, torchvision 0.27.0+cu126
+#
+# ---------------------------------------------------------------------------
+# PyTorch / TorchVision
+# ---------------------------------------------------------------------------
+# IMPORTANT: torch + torchvision must be installed from the PyTorch index that
+# matches your hardware, NOT from plain PyPI. Pick ONE of the two commands below
+# and run it FIRST, then `pip install -r requirements.txt` for the rest.
+#
+#   GPU (CUDA 12.6 build — what this project was developed/tested on):
+#     pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+#
+#   CPU only (no NVIDIA GPU):
+#     pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#
+# The pinned versions below document what we used; adjust the CUDA tag (cu126)
+# to match your installed driver if needed (see `nvidia-smi`).
+torch==2.12.0
+torchvision==0.27.0
+
+# ---------------------------------------------------------------------------
+# Everything else (safe to install from PyPI)
+# ---------------------------------------------------------------------------
+numpy==2.4.2
+matplotlib==3.10.8
+pillow==12.1.1
+
+# Jupyter (to run the .ipynb notebooks). Any recent version is fine.
+jupyter

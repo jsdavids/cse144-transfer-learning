@@ -1,0 +1,23 @@
+# Trained model weights — too large for GitHub (>100 MB each), hosted on Google
+# Drive instead (see the "Trained model weights" section in README.md).
+*.pth
+
+# Competition dataset — downloaded from Kaggle, not redistributed in the repo.
+ucsc-cse-144-spring-2026-final-project/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
